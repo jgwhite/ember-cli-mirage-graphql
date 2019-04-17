@@ -1,0 +1,3 @@
+{{#each model.customer.comments.edges as |comment|}}
+  <div class="comment">{{comment.node.body}}</div>
+{{/each}}

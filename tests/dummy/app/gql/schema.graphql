@@ -11,6 +11,7 @@ type Customer implements Node {
   id: ID!
   name: String!
   orders(after: String, before: String, first: Int, last: Int): OrderConnection
+  comments(after: String, before: String, first: Int, last: Int): CommentConnection
 }
 
 type LineItem {
@@ -57,6 +58,22 @@ type OrderConnection {
   categories: [OrderCategory]
   edges: [OrderEdge]
   pageInfo: PageInfo!
+}
+
+type Comment {
+  id: ID!
+  author: Customer!
+  body: String!
+}
+
+type CommentConnection {
+  edges: [CommentEdge]
+  pageInfo: PageInfo!
+}
+
+type CommentEdge {
+  cursor: String!
+  node: Comment
 }
 
 type PageInfo {
