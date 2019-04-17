@@ -30,6 +30,7 @@ export const composeCreateFieldInfo = (getFieldInfo) =>
     }
 
     let fieldInfo = FieldInfo.create({
+      name: fieldName,
       args,
       fields,
       isList,

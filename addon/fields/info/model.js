@@ -1,6 +1,7 @@
 import EmObject from '@ember/object';
 
 export default EmObject.extend({
+  name: null,
   args: null,
   fields: null,
   isList: false,
