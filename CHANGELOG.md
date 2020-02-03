@@ -1,5 +1,17 @@
 # Ember CLI Mirage GraphQL Changelog
 
+### v0.2.2 (November 25h, 2019)
+
+* [#35](https://github.com/kloeckner-i/ember-cli-mirage-graphql/pull/35) [MAINTENANCE] Update clean-css dependency
+
+### v0.2.1 (November 11th, 2019)
+
+* [#32](https://github.com/kloeckner-i/ember-cli-mirage-graphql/pull/32) [FEATURE] Custom scalar support
+
+### v0.2.0 (November 9th, 2019)
+
+* [#33](https://github.com/kloeckner-i/ember-cli-mirage-graphql/pull/33) [MAINTENANCE] Upgrade Ember (3.14)
+
 ### v0.1.3 (November 3rd, 2019)
 
 * [#31](https://github.com/kloeckner-i/ember-cli-mirage-graphql/pull/31) [BUGFIX] Unwrap type for non-null lists of non null items
